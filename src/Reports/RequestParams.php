@@ -19,5 +19,5 @@ final class RequestParams
     public const RESPONSE_TYPE_ID = 'respc_id';
     public const TRANSACTION_TYPE_ID = 'ttype_id';
     public const CARD_TYPE_ID = 'card_id';
-    public const CUSTOMER_ID = 'merchant_customer_id';
+    public const CUSTOMER_ID = 'cust_id';
 }
