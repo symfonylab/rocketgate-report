@@ -26,7 +26,7 @@
         "php": "^7.3",
         "ext-json": "*",
         "ext-simplexml": "*",
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "6.*|^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.2"
