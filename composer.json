@@ -1,0 +1,34 @@
+{
+    "name": "symfonylab/rocketgate-report",
+    "description": "RocketGate SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mykola Nevmerzhytskyi",
+            "email": "kolyan95@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "SymfonyLab\\RocketGate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SymfonyLab\\RocketGate\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
