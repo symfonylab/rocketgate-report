@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SymfonyLab\RocketGate\Reports;
+namespace SymfonyLab\RocketGateReport\Reports;
 
 final class RequestParams
 {

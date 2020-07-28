@@ -1,9 +1,9 @@
 <?php
 
 
-namespace SymfonyLab\RocketGate;
+namespace SymfonyLab\RocketGateReport;
 
-use SymfonyLab\RocketGate\Request\RequestInterface;
+use SymfonyLab\RocketGateReport\Request\RequestInterface;
 
 interface GatewayServiceInterface
 {

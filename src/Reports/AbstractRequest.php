@@ -1,10 +1,10 @@
 <?php
 
 
-namespace SymfonyLab\RocketGate\Reports;
+namespace SymfonyLab\RocketGateReport\Reports;
 
-use SymfonyLab\RocketGate\MerchantInterface;
-use SymfonyLab\RocketGate\Request\RequestInterface;
+use SymfonyLab\RocketGateReport\MerchantInterface;
+use SymfonyLab\RocketGateReport\Request\RequestInterface;
 
 abstract class AbstractRequest implements RequestInterface
 {

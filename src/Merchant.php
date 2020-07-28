@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SymfonyLab\RocketGate;
+namespace SymfonyLab\RocketGateReport;
 
 final class Merchant implements MerchantInterface
 {

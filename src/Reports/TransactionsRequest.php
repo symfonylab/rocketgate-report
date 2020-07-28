@@ -1,6 +1,6 @@
 <?php
 
-namespace SymfonyLab\RocketGate\Reports;
+namespace SymfonyLab\RocketGateReport\Reports;
 
 class TransactionsRequest extends AbstractRequest
 {

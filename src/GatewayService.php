@@ -1,11 +1,11 @@
 <?php
 
-namespace SymfonyLab\RocketGate;
+namespace SymfonyLab\RocketGateReport;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\RequestOptions;
-use SymfonyLab\RocketGate\Request\RequestInterface;
+use SymfonyLab\RocketGateReport\Request\RequestInterface;
 
 class GatewayService implements GatewayServiceInterface
 {
@@ -102,7 +102,7 @@ class GatewayService implements GatewayServiceInterface
             ],
         ]);
         if ($response->getStatusCode() !== 200) {
-            throw new \Exception('RocketGate Clear API request: Failed to login to mission control.');
+            throw new \Exception('RocketGateReport Clear API request: Failed to login to mission control.');
         }
 
         // Get page to fetch _cf_clientid
@@ -111,7 +111,7 @@ class GatewayService implements GatewayServiceInterface
         if (!empty($matches[1][0])) {
             $CFClientID = $matches[1][0];
         } else {
-            throw new \Exception('RocketGate Clear API request: failed to fetch _cf_clientid.');
+            throw new \Exception('RocketGateReport Clear API request: failed to fetch _cf_clientid.');
         }
 
         $from = (new \DateTimeImmutable('-1 month'))->format('m/d/Y');
@@ -129,12 +129,12 @@ class GatewayService implements GatewayServiceInterface
         ]);
 
         if ($response->getStatusCode() !== 200) {
-            throw new \Exception('RocketGate Clear API request: ' . $response->getBody()->getContents());
+            throw new \Exception('RocketGateReport Clear API request: ' . $response->getBody()->getContents());
         }
 
         $data = $response->getBody()->getContents();
         if (strpos($data, 'Record Updated') === false) {
-            throw new \Exception('RocketGate Clear API request: failed to clear api.');
+            throw new \Exception('RocketGateReport Clear API request: failed to clear api.');
         }
     }
 }

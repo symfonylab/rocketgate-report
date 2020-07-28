@@ -1,6 +1,6 @@
 {
     "name": "symfonylab/rocketgate-report",
-    "description": "RocketGate SDK",
+    "description": "RocketGateReport SDK",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "SymfonyLab\\RocketGate\\": "src/"
+            "SymfonyLab\\RocketGateReport\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SymfonyLab\\RocketGate\\Tests\\": "tests/"
+            "SymfonyLab\\RocketGateReport\\Tests\\": "tests/"
         }
     },
     "require": {

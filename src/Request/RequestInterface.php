@@ -1,8 +1,8 @@
 <?php
 
-namespace SymfonyLab\RocketGate\Request;
+namespace SymfonyLab\RocketGateReport\Request;
 
-use SymfonyLab\RocketGate\MerchantInterface;
+use SymfonyLab\RocketGateReport\MerchantInterface;
 
 interface RequestInterface
 {

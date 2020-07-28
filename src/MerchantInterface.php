@@ -1,6 +1,6 @@
 <?php
 
-namespace SymfonyLab\RocketGate;
+namespace SymfonyLab\RocketGateReport;
 
 interface MerchantInterface
 {

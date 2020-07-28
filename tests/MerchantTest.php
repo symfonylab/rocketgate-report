@@ -1,6 +1,6 @@
 <?php
 
-namespace SymfonyLab\RocketGate\Tests;
+namespace SymfonyLab\RocketGateReport\Tests;
 
 use PHPUnit\Framework\TestCase;
 
